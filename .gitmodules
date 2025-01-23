@@ -1,0 +1,21 @@
+[submodule "apps/project_coip"]
+	path = apps/project_coip
+	url = https://github.com/FaaStatic/project_coip.git
+[submodule "apps/project_litemodule"]
+	path = apps/project_litemodule
+	url = https://github.com/FaaStatic/project_litemodule.git
+[submodule "apps/project_dca"]
+	path = apps/project_dca
+	url = https://github.com/FaaStatic/project_dca.git
+[submodule "apps/project_utconn"]
+	path = apps/project_utconn
+	url = https://github.com/FaaStatic/project_utconn.git
+[submodule "packages/project_hooks"]
+	path = packages/project_hooks
+	url = https://github.com/FaaStatic/project_hooks.git
+[submodule "packages/package_navigation"]
+	path = packages/package_navigation
+	url = https://github.com/FaaStatic/package_navigation.git
+[submodule "packages/package_components"]
+	path = packages/package_components
+	url = https://github.com/FaaStatic/package_components.git

@@ -1,0 +1,27 @@
+{
+  "name": "mfexpo",
+  "packageManager": "yarn@4.3.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "intallConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "scripts": {
+    "start": "expo start",
+    "coip:dev": "yarn workspace @untr/apps-coip dev:android",
+    "lite:dev": "yarn workspace @untr/apps-lite-module dev:android",
+    "dca:dev": "yarn workspace @untr/apps-dca dev:android",
+    "clean": "yarn workspace @untr/apps-dca clean && yarn workspace @untr/apps-lite-module clean && yarn workspace @untr/apps-coip clean && yarn workspace @untr/apps-ut-connect clean && watchman watch-del-all",
+    "connect:dev": "yarn workspace @untr/apps-ut-connect dev:android",
+    "connect:dev:start": "yarn workspace @untr/apps-ut-connect start:development",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "postinstall-postinstall": "^2.1.0"
+  }
+}
